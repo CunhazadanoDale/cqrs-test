@@ -1,4 +1,4 @@
-package org.command.domain;
+package org.command.domain.usuario;
 
 import java.time.LocalDateTime;
 import java.util.UUID;
