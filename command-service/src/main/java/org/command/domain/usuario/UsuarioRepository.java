@@ -6,5 +6,5 @@ import java.util.UUID;
 public interface UsuarioRepository {
     Optional<Usuario> buscarPorId(UUID userId);
     Usuario criar(Usuario usuario);
-    Boolean usuarioExiste(UUID userId);
+    Boolean usuarioExistePorUsername(String username);
 }
